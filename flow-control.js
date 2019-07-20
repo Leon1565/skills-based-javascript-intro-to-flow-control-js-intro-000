@@ -2,7 +2,9 @@ function basicTeenager(age) {
   if(13 < age < 19){
     return "You are a teenger!"
   }
-  else if()
+  else if(age < 13 && age > 19){
+    
+  }
 }
 
 function teenager(age) {
