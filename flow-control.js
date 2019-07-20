@@ -17,7 +17,9 @@ function teenager(age) {
     return "You are not a teenager";
   }
 }
-teenager()
+teenager(13);
+teenager(12);
+teenager(29);
 
 function ageChecker(age) {
 
