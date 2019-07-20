@@ -22,7 +22,12 @@ teenager(12);
 teenager(29);
 
 function ageChecker(age) {
-
+  if(age >= 13 && age <= 19){
+    return "You are a teenager!";
+  }
+  else if{
+    if(age )
+  }
 }
 
 function ternaryTeenager(age) {
