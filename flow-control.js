@@ -44,6 +44,8 @@ function ternaryTeenager(age) {
     return "You are not a teenager";
   }
 }
+ternaryTeenager(15);
+ternaryTeenager(75);
 
 function switchAge(age) {
 
