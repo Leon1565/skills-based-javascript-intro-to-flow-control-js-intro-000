@@ -48,8 +48,16 @@ ternaryTeenager(15);
 ternaryTeenager(75);
 
 function switchAge(age) {
-
+  if(age >= 13 && age <= 19){
+    return "You are a teenager";
+  }
+  else{
+    return "You have an age";
+  }
 }
+switchAge(15);
+switchAge(75);
+switchAge(7);
 
 
 describe('ternaryTeenager', () => {
