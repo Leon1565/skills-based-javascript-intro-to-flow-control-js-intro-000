@@ -32,7 +32,9 @@ function ageChecker(age) {
     return "You are a grownup";
   }
 }
-ageChecker()
+ageChecker(13);
+ageChecker(12);
+ageChecker(29);
 
 function ternaryTeenager(age) {
 
