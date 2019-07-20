@@ -37,9 +37,34 @@ ageChecker(12);
 ageChecker(29);
 
 function ternaryTeenager(age) {
-
+  if(age >= 13 && age <= 19){
+    return "You are a teenager";
+  }
+  else{
+    return "You are not a teenager";
+  }
 }
 
 function switchAge(age) {
 
 }
+
+
+describe('ternaryTeenager', () => {
+    it('should return "You are a teenager" if age is between 13-19', () => {
+      expect(ternaryTeenager(15)).toEqual("You are a teenager")
+    })
+
+    it('should return "You are not a teenager" if age not between 13-19', () => {
+      expect(ternaryTeenager(75)).toEqual("You are not a teenager")
+    })
+  })
+
+  describe('switchAge', () => {
+    it('should return "You are a teenager" if age is between 13-19', () => {
+      expect(switchAge(15)).toEqual("You are a teenager")
+    })
+
+    it('should return "You have an age" if age not between 13-19', () => {
+      expect(switchAge(75)).toEqual("You have an age")
+      expect(switchAge(7)).toEqual("You have an age")
