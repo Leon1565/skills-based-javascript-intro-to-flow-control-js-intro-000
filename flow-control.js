@@ -6,6 +6,7 @@ function basicTeenager(age) {
     return undefined;
   }
 }
+basicTeenager(15);
 basicTeenager(10);
 
 function teenager(age) {
